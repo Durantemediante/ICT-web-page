@@ -41,6 +41,11 @@ p {background-color: rgb(84, 119, 179);
    margin-left: 60px;
    margin-right: 60px;
    align: "center";}
+	
+img {text-align: center;
+     margin-left: 60px;
+     margin-right: 60px;}
+
    
 #virus {
 margin-left: 800px;;
@@ -112,8 +117,11 @@ When a signer electronically signs a document, the signature is created using th
 </p>
 <p>
 As an example, Jane signs an agreement to sell a timeshare using her private key.
- The buyer receives the document. The buyer who receives the document also receives
- a copy of Jane’s public key. If the public key can’t decrypt the signature (via the cipher from which the keys were created), it means the signature isn’t Jane’s, or has been changed since it was signed. The signature is then considered invalid.
+The buyer receives the document. The buyer who receives the document also receives
+a copy of Jane’s public key. If the public key can’t decrypt the signature
+(via the cipher from which the keys were created), it means the signature
+isn’t Jane’s, or has been changed since it was signed. The signature is then
+considered invalid.
 </p>
 <p>
 To protect the integrity of the signature, PKI requires that the keys be created,
