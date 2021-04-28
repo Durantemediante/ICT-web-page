@@ -1,0 +1,183 @@
+<html>
+
+<head> 
+<title> object oriented programming vs structured programming </title>
+
+<style>
+h1 {color : rgb(255, 255, 255);
+    background-color: black;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;}
+
+h2 {color : rgb(255, 255, 255);
+    background-color: gray;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;}
+
+h3 {color : rgb(255, 255, 255);
+	background-color: rgb(175, 175, 175);
+	font-family: shadow;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;}
+
+#text {background-color: rgb(84, 119, 179);
+   font-family: monospace;
+   font-size: 20px;
+   margin-left: 60px;
+   margin-right: 60px;}
+   
+ul {background-color: rgb(84, 119, 179);
+   font-family: monospace;
+   font-size: 20px;
+   margin-left: 60px;
+   margin-right: 60px;}
+   
+p {background-color: rgb(84, 119, 179);
+   font-family: monospace;
+   font-size: 20px;
+   margin-left: 60px;
+   margin-right: 60px;
+   align: "center";}
+   
+#virus {
+margin-left: 800px;;
+}
+
+#cyber-attacks {
+width: 93.5%;
+text-align: center;}   
+	
+	body {
+	background: url(https://durantemediante.github.io/ICT-web-page/tecno.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;}
+	
+#container {border: 5px solid rgb(200, 200, 200);}
+
+#troyano {text-align: center;
+margin-left: 600px;
+margin-right: 500px;}
+
+#video {text-align: center;}
+
+
+	
+	</style>
+</head>
+
+<body>
+<h1> What is object oriented programming? </h1>
+<p> <strong>Object Oriented programming (OOP)</strong> is a programming paradigm that relies on the concept of classes and objects.
+ It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes),
+ which are used to create individual instances of objects. There are many object-oriented programming languages including JavaScript,
+ C++, Java, and Python. </p>
+
+<p>A class is an abstract blueprint used to create more specific, concrete objects. Classes often represent broad categories,
+ like Car or Dog that share attributes. These classes define what attributes an instance of this type will have, like color,
+ but not the value of those attributes for a specific object.</p>
+
+<p>Classes can also contain functions, called methods available only to objects of that type. These functions are defined within
+ the class and perform some action helpful to that specific type of object.</p>
+
+<p>For example, our Car class may have a method repaint that changes the color attribute of our car. This function is only helpful
+ to objects of type Car, so we declare it within the Car class thus making it a method.</p>
+
+<p>Class templates are used as a blueprint to create individual objects. These represent specific examples of the abstract class,
+ like myCar or goldenRetriever. Each object can have unique values to the properties defined in the class.</p>
+
+<p>For example, say we created a class, Car, to contain all the properties a car must have, color, brand, and model.
+ We then create an instance of a Car type object, myCar to represent my specific car.</p>
+
+<p>We could then set the value of the properties defined in the class to describe my car, without affecting other objects or the class template.</p>
+
+<p>We can then reuse this class to represent any number of cars. </p>
+
+
+
+<h1> What is structured programming? </h1>
+
+<p> Structured programming (sometimes known as modular programming) is a programming paradigm that facilitates the creation of programs with 
+readable code and reusable components. All modern programming languages support structured programming, but the mechanisms of support, like 
+the syntax of the programming languages, varies.</p>
+
+<p>Where modules or elements of code can be reused from a library, it may also be possible to build structured code using modules written in 
+different languages, as long as they can obey a common module interface or application program interface (API) specification. However, 
+when modules are reused, it's possible to compromise data security and governance, so it's important to define and enforce a privacy policy
+ controlling the use of modules that bring with them implicit data access rights.</p>
+
+<p>Structured programming encourages dividing an application program into a hierarchy of modules or autonomous elements, which may, in turn,
+ contain other such elements. Within each element, code may be further structured using blocks of related logic designed to improve readability
+ and maintainability. These may include case, which tests a variable against a set of values; Repeat, while and for, which construct loops
+ that continue until a condition is met. In all structured programming languages, an unconditional transfer of control, or goto statement,
+ is deprecated and sometimes not even available.</p>
+
+<h2>Difference between structured and unstructured programming languages</h2>
+
+<p>A structured programming language facilitates or enforces structured programming practices. These practices can also be supported with
+ unstructured languages, but that will require specific steps in program design and implementation. Structured programming practices 
+ thus date to the emergence of structured programming languages.</p>
+
+<p>The theoretical basis for structured programming goes back to the 1950s, with the emergence of the ALGOL 58 and 60 languages.
+ Up to then, code clarity was reduced by the need to build condition/action tests by having programmers write linked tests and 
+ actions explicitly (using the goto statement or its equivalent), resulting in what was often called spaghetti code. ALGOL included
+ block structure, where an element of code included a condition and an action.</p>
+
+<p>Modular programming, which is today seen as synonymous with structured programming, emerged a decade later as it became clear that reuse
+ of common code could improve developer productivity. In modular programming, a program is divided into semi-independent modules, each
+ of which are called when needed. Purists argue that modular programming requires actual independence of modules, but most development
+ teams consider any program that divides logic into separate elements, even if those elements exist within the same program, as modular.</p>
+
+<p>Modern programming languages are universally capable of producing structured code. Similarly, they're also capable of producing code fairly
+ described as unstructured if used incorrectly. Some would say that an unstructured programming language contains goto statements and,
+ thus, does not require a "call" to a separate module, which then returns when complete, but that definition is unnecessarily restrictive.
+ It's better to say that the mechanisms for enforcing structure vary by language, with some languages demanding structure and other accepting
+ less-structured code.</p>
+
+<h2>Types of structured programming</h2>
+
+<p>Structured programming can be divided into three categories, including:</p>
+
+<ul>
+<li>Procedural programming. Defines modules as "procedures" or "functions" that are called with a set of parameters to perform a task.
+ A procedural language will begin a process, which is then given data. It is also the most common category and has recently been subdivided
+ into the following:</li>
+<ul>
+
+<li>Service-oriented programming simply defines reusable modules as "services" with advertised interfaces.</li>
+
+<li>Microservice programming focuses on creating modules that do not store data internally, and so are scalable and resilient in cloud deployment.</li>
+
+<li>Functional programming, technically, means that modules are written from functions, and that these functions' outputs are derived 
+only from their inputs. Designed for serverless computing, the definition of functional programming has since expanded to be largely 
+synonymous with microservices.</li>
+
+<li>Object-oriented programming (OOP). Defines a program as a set of objects or resources to which commands are sent.
+ An object-oriented language will define a data resource and send it to process commands. For example, the procedural programmer
+ might say "Print(object)" while the OOP programmer might say "Tell Object to Print".</li>
+
+<li>Model-based programming. The most common example of this is database query languages. In database programming, units of code are
+ associated with steps in database access and update or run when those steps occur. The database and database access structure will
+ determine the structure of the code. Another example of a model-based structure is Reverse Polish Notation (RPN), a math-problem
+ structure that lends itself to efficient solving of complex expressions. Quantum computing, just now emerging, is another example
+ of model-based structured programming; the quantum computer demands a specific model to organize steps, and the language simply provides it.</li>
+</ul>
+</ul>
+<h2>Components of structured programming</h2>
+<p>At the high level, structured programs consist of a structural hierarchy starting with the main process and decomposing downward to
+ lower levels as the logic dictates. These lower structures are the modules of the program, and modules may contain both calls to other
+ (lower-level) modules and blocks representing structured condition/action combinations. All of this can be combined into a single
+ module or unit of code, or broken down into multiple modules, resident in libraries.</p>
+
+<p>Modules can be classified as "procedures" or "functions." A procedure is a unit of code that performs a specific task, usually referencing
+ a common data structure available to the program at large. Much of the data operated on by procedures is external. A function is a unit
+ of code that operates on specific inputs and returns a result when called.</p>
+
+<p>Structured programs and modules typically have a header file or section that describes the modules or libraries referenced and the structure
+ of the parameters and module interface. In some programming languages, the interface description is abstracted into a separate file, which 
+ is then implemented by one or more other units of code.</p>
+
+ </body>
+ </html>
